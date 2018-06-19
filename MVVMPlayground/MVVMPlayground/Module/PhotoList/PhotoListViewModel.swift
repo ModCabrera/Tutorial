@@ -96,6 +96,8 @@ class PhotoListViewModel {
     
 }
 
+
+
 extension PhotoListViewModel {
     func userPressed( at indexPath: IndexPath ){
         let photo = self.photos[indexPath.row]
@@ -110,6 +112,8 @@ extension PhotoListViewModel {
         
     }
 }
+
+
 
 struct PhotoListCellViewModel {
     let titleText: String
